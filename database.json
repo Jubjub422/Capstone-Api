@@ -1,0 +1,14 @@
+{
+    "users": [
+        {
+            "id":1,
+            "name": "Ross",
+            "userName": "jubjub",
+            "email": "ross@email.com"
+        }
+    ],
+    "games": [],
+    "grinds": [],
+    "tasks": [],
+    "savedGrinds": []
+}
