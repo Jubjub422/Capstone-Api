@@ -1,14 +1,58 @@
 {
-    "users": [
-        {
-            "id":1,
-            "name": "Ross",
-            "userName": "jubjub",
-            "email": "ross@email.com"
-        }
-    ],
-    "games": [],
-    "grinds": [],
-    "tasks": [],
-    "savedGrinds": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Ross",
+      "userName": "jubjub",
+      "email": "ross@email.com"
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "gameName": "Code Panic",
+      "image": "None"
+    },
+    {
+      "id": 2,
+      "gameName": "Dragon's Dogma: Dark Arisen",
+      "image": "None"
+    },
+    {
+      "id": 3,
+      "gameName": "Skyrim",
+      "image": "None"
+    },
+    {
+      "id": 4,
+      "gameName": "Warframe",
+      "image": "None"
+    }
+  ],
+  "grinds": [
+    {
+      "id": 1,
+      "grindGoal": "make the page work",
+      "gameId": 1,
+      "userId": 1,
+      "grindComplete": false,
+      "savedForCurrentUser": false
+    }
+  ],
+  "tasks": [
+    {
+      "task": "New gear",
+      "grindId": 2,
+      "taskComplete": false,
+      "gameId": "2",
+      "id": 1
+    },
+    {
+      "task": "dragonforgeGear",
+      "grindId": 2,
+      "taskComplete": false,
+      "id": 2
+    }
+  ],
+  "savedGrinds": []
 }
