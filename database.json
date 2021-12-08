@@ -37,21 +37,42 @@
       "userId": 1,
       "grindComplete": false,
       "savedForCurrentUser": false
+    },
+    {
+      "grindGoal": "newest grind",
+      "gameId": 1,
+      "userId": 1,
+      "grindComplete": false,
+      "savedForCurrentUser": false,
+      "id": 2
+    },
+    {
+      "grindGoal": "Newer grind",
+      "gameId": 2,
+      "userId": 1,
+      "grindComplete": false,
+      "savedForCurrentUser": false,
+      "id": 3
     }
   ],
   "tasks": [
     {
-      "task": "New gear",
+      "task": "get wrecked by sentients",
       "grindId": 2,
       "taskComplete": false,
-      "gameId": "2",
       "id": 1
     },
     {
-      "task": "dragonforgeGear",
+      "task": "stop getting wrecked by sentients",
       "grindId": 2,
       "taskComplete": false,
       "id": 2
+    },
+    {
+      "task": "ITS WORKING",
+      "grindId": 5,
+      "taskComplete": false,
+      "id": 3
     }
   ],
   "savedGrinds": []
