@@ -5,6 +5,12 @@
       "name": "Ross",
       "userName": "jubjub",
       "email": "ross@email.com"
+    },
+    {
+      "id": 2,
+      "name": "Ross",
+      "userName": "Adubdub",
+      "email": "boss@email.com"
     }
   ],
   "games": [
@@ -39,7 +45,7 @@
       "savedForCurrentUser": false
     },
     {
-      "grindGoal": "newest grind",
+      "grindGoal": "jubjub grind",
       "gameId": 1,
       "userId": 1,
       "grindComplete": false,
@@ -47,12 +53,28 @@
       "id": 2
     },
     {
-      "grindGoal": "Newer grind",
+      "grindGoal": "Cassardis exit",
       "gameId": 2,
-      "userId": 1,
+      "userId": 2,
       "grindComplete": false,
       "savedForCurrentUser": false,
       "id": 3
+    },
+    {
+      "grindGoal": "Newer grind",
+      "gameId": 4,
+      "userId": 2,
+      "grindComplete": false,
+      "savedForCurrentUser": false,
+      "id": 4
+    },
+    {
+      "grindGoal": "The New War",
+      "gameId": 3,
+      "userId": 2,
+      "grindComplete": false,
+      "savedForCurrentUser": false,
+      "id": 5
     }
   ],
   "tasks": [
@@ -69,10 +91,16 @@
       "id": 2
     },
     {
-      "task": "ITS WORKING",
-      "grindId": 5,
+      "task": "Get Wrecked by Grigori",
+      "grindId": 3,
       "taskComplete": false,
       "id": 3
+    },
+    {
+      "task": "I lived ",
+      "grindId": 3,
+      "taskComplete": false,
+      "id": 4
     }
   ],
   "savedGrinds": []
