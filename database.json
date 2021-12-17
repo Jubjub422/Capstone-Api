@@ -2,21 +2,23 @@
   "users": [
     {
       "id": 1,
-      "name": "Ross",
       "userName": "jubjub",
       "email": "ross@email.com"
     },
     {
       "id": 2,
-      "name": "Ross",
       "userName": "Adubdub",
       "email": "boss@email.com"
     },
     {
-      "name": "Angela",
       "userName": "AngleOrDevil",
       "email": "angle@email.com",
       "id": 3
+    },
+    {
+      "userName": "Taryn",
+      "email": "taryn@email.com",
+      "id": 4
     }
   ],
   "games": [
@@ -39,6 +41,16 @@
       "id": 4,
       "gameName": "Warframe",
       "image": "https://n9e5v4d8.ssl.hwcdn.net/images/longlanding/warframe-metacard.png"
+    },
+    {
+      "gameName": "Super Smash Bros",
+      "image": "https://www.nintendo.com//content/dam/noa/en_US/games/switch/s/super-smash-bros-ultimate-switch/super-smash-bros-ultimate-switch-hero.jpg",
+      "id": 5
+    },
+    {
+      "gameName": "Halo",
+      "image": "https://compass-ssl.xbox.com/assets/8d/ac/8dac2278-aef9-4a8c-bd68-739693d639c2.jpg?n=Halo-Franchise-2020_Super-Hero-1400_1920x1080.jpg",
+      "id": 6
     }
   ],
   "grinds": [
@@ -47,7 +59,7 @@
       "grindGoal": "make the page work",
       "gameId": 1,
       "userId": 1,
-      "grindComplete": false,
+      "grindComplete": true,
       "savedForCurrentUser": false
     },
     {
@@ -62,7 +74,7 @@
       "grindGoal": "Cassardis exit",
       "gameId": 2,
       "userId": 2,
-      "grindComplete": false,
+      "grindComplete": true,
       "savedForCurrentUser": false,
       "id": 3
     },
@@ -70,7 +82,7 @@
       "grindGoal": "Newer grind",
       "gameId": 4,
       "userId": 2,
-      "grindComplete": false,
+      "grindComplete": true,
       "savedForCurrentUser": false,
       "id": 4
     },
@@ -78,9 +90,17 @@
       "grindGoal": "Angle",
       "gameId": 1,
       "userId": 3,
-      "grindComplete": false,
+      "grindComplete": true,
       "savedForCurrentUser": false,
       "id": 5
+    },
+    {
+      "grindGoal": "Code panic grind",
+      "gameId": 4,
+      "userId": 4,
+      "grindComplete": true,
+      "savedForCurrentUser": false,
+      "id": 6
     }
   ],
   "tasks": [
@@ -113,6 +133,12 @@
       "grindId": 5,
       "taskComplete": false,
       "id": 5
+    },
+    {
+      "task": "dsafdsasdf",
+      "grindId": 6,
+      "taskComplete": false,
+      "id": 6
     }
   ],
   "savedGrinds": []
