@@ -51,6 +51,11 @@
       "gameName": "Halo",
       "image": "https://compass-ssl.xbox.com/assets/8d/ac/8dac2278-aef9-4a8c-bd68-739693d639c2.jpg?n=Halo-Franchise-2020_Super-Hero-1400_1920x1080.jpg",
       "id": 6
+    },
+    {
+      "gameName": "Final Fantasy IX",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/39210/header.jpg?t=1639672153",
+      "id": 7
     }
   ],
   "grinds": [
@@ -71,22 +76,6 @@
       "id": 2
     },
     {
-      "grindGoal": "Cassardis exit",
-      "gameId": 2,
-      "userId": 2,
-      "grindComplete": true,
-      "savedForCurrentUser": false,
-      "id": 3
-    },
-    {
-      "grindGoal": "Newer grind",
-      "gameId": 4,
-      "userId": 2,
-      "grindComplete": true,
-      "savedForCurrentUser": false,
-      "id": 4
-    },
-    {
       "grindGoal": "Angle",
       "gameId": 1,
       "userId": 3,
@@ -101,6 +90,14 @@
       "grindComplete": true,
       "savedForCurrentUser": false,
       "id": 6
+    },
+    {
+      "grindGoal": "Warrior of light grind",
+      "gameId": 7,
+      "userId": 2,
+      "grindComplete": false,
+      "savedForCurrentUser": false,
+      "id": 7
     }
   ],
   "tasks": [
@@ -115,18 +112,6 @@
       "grindId": 1,
       "taskComplete": false,
       "id": 2
-    },
-    {
-      "task": "Get Wrecked by Grigori",
-      "grindId": 3,
-      "taskComplete": false,
-      "id": 3
-    },
-    {
-      "task": "I lived ",
-      "grindId": 4,
-      "taskComplete": false,
-      "id": 4
     },
     {
       "task": "New task for Angle",
