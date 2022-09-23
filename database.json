@@ -56,17 +56,14 @@
       "gameName": "Final Fantasy IX",
       "image": "https://cdn.akamai.steamstatic.com/steam/apps/39210/header.jpg?t=1639672153",
       "id": 7
+    },
+    {
+      "gameName": "Star Wars: The Old Republic",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/1286830/capsule_616x353.jpg?t=1616604893",
+      "id": 8
     }
   ],
   "grinds": [
-    {
-      "id": 1,
-      "grindGoal": "make the page work",
-      "gameId": 1,
-      "userId": 1,
-      "grindComplete": true,
-      "savedForCurrentUser": false
-    },
     {
       "grindGoal": "jubjub grind",
       "gameId": 1,
@@ -98,6 +95,14 @@
       "grindComplete": false,
       "savedForCurrentUser": false,
       "id": 7
+    },
+    {
+      "grindGoal": "Stop Panicking",
+      "gameId": 1,
+      "userId": 1,
+      "grindComplete": false,
+      "savedForCurrentUser": false,
+      "id": 8
     }
   ],
   "tasks": [
@@ -106,12 +111,6 @@
       "grindId": 2,
       "taskComplete": false,
       "id": 1
-    },
-    {
-      "task": "stop getting wrecked by sentients",
-      "grindId": 1,
-      "taskComplete": false,
-      "id": 2
     },
     {
       "task": "New task for Angle",
@@ -124,6 +123,18 @@
       "grindId": 6,
       "taskComplete": false,
       "id": 6
+    },
+    {
+      "task": "Get better at coding",
+      "grindId": 8,
+      "taskComplete": false,
+      "id": 7
+    },
+    {
+      "task": "Grind your life away",
+      "grindId": 2,
+      "taskComplete": false,
+      "id": 8
     }
   ],
   "savedGrinds": []
